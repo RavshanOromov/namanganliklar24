@@ -38,6 +38,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;
+  white-space: nowrap;
 }
 * :focus {
   outline: 2px dashed #7296ec;
@@ -395,7 +396,12 @@ padding-bottom: 19px;
 
 
 /* =========FOOTER======= */
-.container {
+.footer-container {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 .site-footer {
   background-color: #7297ef;
@@ -403,15 +409,12 @@ padding-bottom: 19px;
 }
 
 /* ========FOOTER-TOP====== */
-.footer-top {
-}
 .footer-logo {
   display: block;
 }
-.footer-img {
-}
 .footer-top-contents-wrapper {
   display: flex;
+  align-items: baseline;
   justify-content: space-between;
   border-bottom: 1px solid #cecece;
   padding-bottom: 30px;
