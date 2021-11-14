@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contactN24</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- =========HEADER======= -->
+  <header class="site-header">
+    <div class="container site-header-top">
+      <div class="header-left">
+        <a href="#" class="header-logo" >
+          <img class="header-img" src="img/logo.png" alt="site-logo" width="264" height="28" srcset="img/logo.png 1x,img/logo@2x.png 2x">
+        </a>
+        <div class="currencies">
+          <p class="currency-item" ><strong class="currency-icon">$</strong> 10137.2</p>
+          <p class="currency-item"><strong class="currency-icon">P</strong> 138.26</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <input class="search" type="search" name="search" placeholder="Поиск..." aria-label="search" required>
+        <div class="languages">
+          <a class="language language-active" href="#">УЗ</a>
+          <a class="language" href="#">РУ</a>
+        </div>
+        <a class="button header-button" href="#">Войти</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========HEADER-BOTTOM========== -->
+  <div class="container site-header-bottom">
+    <nav class="header-bottom-nav">
+      <ul class="bottom-nav-list">
+        <li class="bottom-nav-item"> <a class="bottom-nav-link" href="#">Главное</a></li>
+        <li class="bottom-nav-item"> <a class="bottom-nav-link" href="#">Интересное</a></li>
+        <li class="bottom-nav-item"> <a class="bottom-nav-link" href="#">Интересное</a></li>
+        <li class="bottom-nav-item"> <a class="bottom-nav-link" href="#">Политика</a></li>
+        <li class="bottom-nav-item"> <a class="bottom-nav-link" href="#">Общество</a></li>
+        <li class="bottom-nav-item"> <a class="bottom-nav-link" href="#">Технологии</a></li>
+        <li class="bottom-nav-item"> <a class="bottom-nav-link" href="#">Спорт</a></li>
+        <li class="bottom-nav-item"> <a class="bottom-nav-link" href="#">Культура</a></li>
+        <li class="bottom-nav-item"> <a class="bottom-nav-link" href="#">Происшествия</a></li>
+        <li class="bottom-nav-item"> <a class="bottom-nav-link" href="#">Наука</a></li>
+      </ul>
+    </nav>
+  </div>
+  <hr class="header-line">
+  <!-- ===========CONTACTS=========== -->
+  <main class="contacts">
+    <div class="container contacts-container">
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <h1>Напишите нам</h1>
+        <div>
+          <input class="contact-name" type="text" name="full-name" placeholder="Имя" required>
+          <input class="contact-number" type="number" name="phone-number" placeholder="Номер телефона" required>
+        </div>
+        <div>
+          <input class="contact-email" type="email" name="email" placeholder="Электронная почта" required>
+        </div>
+        <div>
+          <label class="contact-text" for="text-input"></label>
+          <textarea name="message" id="text-input" placeholder="Текст"></textarea>
+        </div>
+        <button class="contact-button button" type="submit">
+          <!-- <a href="#">Отправить</a> -->
+          Отправить
+        </button>
+        <aside class="contact-info">
+
+        </aside>
+      </form>
+    </div>
+  </main>
+
+  <!-- ===========FOOTER======= -->
+  <footer class="container site-footer">
+    <!-- =========FOOTER-TOP========= -->
+    <section class="footer-top">
+      <div class="site-footer-logo-wrapper">
+        <a href="#" class="footer-logo" >
+          <img class="footer-img" src="img/logo-footer.png" alt="site-logo" width="264" height="28" srcset="img/logo-footer.png 1x,img/logo-footer@2x.png 2x">
+        </a>
+      </div>
+      <section class="footer-top-contents-wrapper">
+        <ul class="contents-footer">
+          <li class="item-footer-content">
+            <a class="contents-footer-link" href="#">
+              Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+            </a>
+          </li>
+        </ul>
+        <ul class="footer-contents">
+          <li class="footer-content-item"><a class="footer-content-link" href="#" >Информация о сайте</a></li>
+          <li class="footer-content-item"><a class="footer-content-link" href="#" >Напишите нам</a></li>
+          <li class="footer-content-item"><a class="footer-content-link" href="#" >Реклама</a></li>
+          <li class="footer-content-item"><a class="footer-content-link" href="#" >Информация о сайте</a></li>
+        </ul>
+        <ul class="footer-contents">
+          <li class="footer-content-item">
+            <a class="footer-content-link" href="#" >
+              Использование материалов
+            </a>
+          </li>
+          <li class="footer-content-item">
+            <a class="footer-content-link" href="#">
+              Темы дня
+            </a>
+          </li>
+          <li class="footer-content-item">
+            <a class="footer-content-link" href="#" >
+              Наша команда
+            </a>
+          </li>
+        </ul>
+      </section>
+    </section>
+    <!-- =========FOOTER-BOTTOM========= -->
+    <section class="footer-bottom">
+      <h3 class="footer-bottom-heading">
+        Наши <br> социальные сети
+      </h3>
+      <ul class="footer-socials">
+        <li class="footer-socials-item">
+          <a class="footer-socials-link" href="#" target="_blank">
+            <img src="img/icon-facebook.svg" alt="facebook-icon" width="25" height="25">
+          </a>
+        </li>
+        <li class="footer-socials-item">
+          <a class="footer-socials-link" href="#" target="_blank">
+            <img src="img/icon-instagram.svg" alt="instagram-icon" width="25" height="25">
+          </a>
+        </li>
+        <li class="footer-socials-item">
+          <a class="footer-socials-link" href="#" target="_blank">
+            <img src="img/icon-telegram.svg" alt="telegram-icon" width="25" height="25">
+          </a>
+        </li>
+        <li class="footer-socials-item">
+          <a class="footer-socials-link" href="#">
+            <img src="img/icon-youtube.svg" alt="youtube-icon" width="25" height="25">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </footer>
+</body>
+</html>
