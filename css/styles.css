@@ -505,7 +505,6 @@ height: 553px;
 }
 .footer-socials-item:hover {
   transform: scale(1.5);
-
 }
 
 .footer-socials-item:not(:last-child) {
@@ -617,12 +616,7 @@ flex-grow: 1;
 }
 .contacts-container {
   display: flex;
-  /* flex-direction: column; */
 }
-/* .contact-form-wrapper {
-  display: flex;
-  justify-content: space-between;
-} */
 .contacts-form {
   display: flex;
   flex-direction: column;
@@ -681,6 +675,7 @@ border-radius: 10px;
 }
 .contact-info-card {
   margin: 0;
+
 
 }
 .contact-info-card:not(:last-child) {
